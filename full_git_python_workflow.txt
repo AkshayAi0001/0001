@@ -1,0 +1,72 @@
+
+🔥 COMPLETE GIT + PYTHON WORKFLOW (End-to-End) 🔥
+
+Step 1: Create Project Directory & Initialize Git
+-------------------------------------------------
+mkdir MyGitProject
+cd MyGitProject
+git init -b main
+
+Step 2: Create Initial Python File
+----------------------------------
+echo "def greet():\n    print('Hello, Akshay!')" > Akshay.py
+
+Step 3: Add & Commit the File
+-----------------------------
+git add Akshay.py
+git commit -m "Add Akshay.py with greet function"
+
+Step 4: Connect to GitHub Repo
+------------------------------
+# Replace with your actual GitHub repo URL
+git remote add origin https://github.com/AkshayAi0001/MyGitProject.git
+
+Step 5: Push to GitHub (First Time)
+-----------------------------------
+git push -u origin main
+
+Step 6: Make Changes to the File
+--------------------------------
+# Edit Akshay.py to look like this:
+
+def greet():
+    print("Hello, Akshay!")
+
+def farewell():
+    print("Goodbye, Akshay!")
+
+# Save the file
+
+Step 7: Stage, Commit & Push Changes
+------------------------------------
+git add Akshay.py
+git commit -m "Add farewell function"
+git push
+
+Step 8: View on GitHub
+----------------------
+# Go to your repo on GitHub:
+https://github.com/AkshayAi0001/MyGitProject/blob/main/Akshay.py
+
+🧠 Summary of Common Git Commands
+---------------------------------
+# Initialize Git with main branch
+git init -b main
+
+# Add specific file
+git add Akshay.py
+
+# Add all files
+git add .
+
+# Commit changes
+git commit -m "Your message"
+
+# Connect to remote repo (once)
+git remote add origin https://github.com/YourUsername/YourRepo.git
+
+# Push changes
+git push -u origin main
+
+# Push later updates
+git push
